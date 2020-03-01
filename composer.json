@@ -1,0 +1,29 @@
+{
+    "name": "enbit/amazon-mws-laravel",
+    "description": "Laravel Implementation for meertensm/amazon-mws",
+    "keywords": [
+        "enbit",
+        "amazon",
+        "mws",
+        "amazon-mws",
+        "amazon-mws-laravel",
+        "meertensm/amazon-mws"
+    ],
+    "homepage": "https://github.com/enbit/amazon-mws-laravel",
+    "type": "library",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "enbit GmbH",
+            "email": "info@enbit.de"
+        }
+    ],
+    "require": {
+        "mcs/amazon-mws": "^0.1.26"
+    },
+    "autoload": {
+        "psr-4": {
+            "Enbit\\LaravelAmazonMWS\\": "src/"
+        }
+    }
+}
