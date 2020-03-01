@@ -35,11 +35,14 @@ class MWSService extends MWSClient
     public function __construct($config = [])
     {
         $config = $config ?: config('enbit-amazon-mws');
-        $country_code = strtoupper(\Arr::get($config, 'Marketplace_Id', 'empty'));
-        if(! \Arr::has(self::$countries, $country_code))
-            throw new Exception('Invalid Marketplace Country');
+        $marketplaceId = \Arr::get($config, 'Marketplace_Id', 'empty');
+        if(! in_array($marketplaceId, self::$countries)) {
+            $country_code = strtoupper($marketplaceId);
+            if (!\Arr::has(self::$countries, $country_code))
+                throw new Exception('Invalid Marketplace Country');
 
-        $config['Marketplace_Id'] = self::$countries[$config['Marketplace_Id']];
+            $config['Marketplace_Id'] = self::$countries[$config['Marketplace_Id']];
+        }
         parent::__construct($config);
     }
 }

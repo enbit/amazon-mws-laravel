@@ -61,7 +61,7 @@ $amazonMWS = app()->makeWith('enbit-amazon-mws', $config);
 ```
 ####Marketplaces
 
-to simplicity the code, you will pass just the country code, then the package will chooses the right endpoint and market place id.
+to simplicity the code, you will pass just the country code, then the package will chooses the right endpoint and market place id, and you still can pass the market place id instead.
         
 | available countries code | 
 | ------------- |
