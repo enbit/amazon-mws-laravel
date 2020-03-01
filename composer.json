@@ -1,17 +1,17 @@
 {
     "name": "enbit/amazon-mws-laravel",
-    "description": "Laravel Implementation for meertensm/amazon-mws",
+    "description": "Laravel Implementation for 'meertensm amazon-mws'",
     "keywords": [
         "enbit",
         "amazon",
         "mws",
         "amazon-mws",
         "amazon-mws-laravel",
-        "meertensm/amazon-mws"
+        "meertensm amazon-mws"
     ],
     "homepage": "https://github.com/enbit/amazon-mws-laravel",
     "type": "library",
-    "license": "GNU",
+    "license": "GPL-3.0-only",
     "authors": [
         {
             "name": "enbit GmbH",
@@ -24,6 +24,16 @@
     "autoload": {
         "psr-4": {
             "Enbit\\LaravelAmazonMWS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Enbit\\LaravelAmazonMWS\\AmazonMWSServiceProvider"
+            ],
+            "aliases": {
+                "AmazonMWS": "Enbit\\LaravelAmazonMWS\\Facades\\AmazonMWS"
+            }
         }
     }
 }
