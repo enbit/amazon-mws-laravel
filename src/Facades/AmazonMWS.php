@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Enbit\LaravelAmazonMWS\Facades\AmazonMWS;
+namespace Enbit\LaravelAmazonMWS\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

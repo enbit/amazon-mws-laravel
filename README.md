@@ -10,7 +10,7 @@ Laravel Implementation for meertensm/amazon-mws
 Link to the [Official Amazon MWS Documentation](https://docs.developer.amazonservices.com/en_US/dev_guide/index.html)
 
 <a name="installation"></a>
-## Installation
+## Installation 
 
 Require the package using composer:
 
