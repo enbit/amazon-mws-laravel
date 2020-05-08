@@ -1,5 +1,7 @@
 # amazon-mws-laravel
-Laravel Implementation for meertensm/amazon-mws
+[![Latest Stable Version](https://poser.pugx.org/enbit/amazon-mws-laravel/v/stable?format=plastic)](https://packagist.org/packages/enbit/amazon-mws-laravel) [![Latest Unstable Version](https://poser.pugx.org/enbit/amazon-mws-laravel/v/unstable?format=plastic)](https://packagist.org/packages/enbit/amazon-mws-laravel) [![License](https://poser.pugx.org/enbit/amazon-mws-laravel/license?format=plastic)](https://packagist.org/packages/enbit/amazon-mws-laravel) [![Total Downloads](https://poser.pugx.org/enbit/amazon-mws-laravel/downloads?format=plastic)](https://packagist.org/packages/enbit/amazon-mws-laravel)
+
+Laravel Implementation for [meertensm/amazon-mws](https://github.com/meertensm/amazon-mws)
 
 ## Contents
 
