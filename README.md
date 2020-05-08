@@ -100,4 +100,4 @@ foreach ($orders as $order) {
 }
 ```
 
-For more Info check [mcs/amazon-mws Documentation](https://github.com/meertensm/amazon-mws)
+For more Info check [meertensm/amazon-mws Documentation](https://github.com/meertensm/amazon-mws)
